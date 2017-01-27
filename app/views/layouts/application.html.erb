@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sirius Dreamer</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <%= render 'home/header' %>
+  <hr>
+  <h1 align="center">The Sirius Dreamer</h1>
+<hr>
+
+<div class="container">
+<%= yield %>
+</div>
+
+<%= render "footer" %>
+</body>
+</html>
