@@ -18,4 +18,10 @@ class HomeController < ApplicationController
   def andromeda
   end
   
+  def eagle_nebula
+  end
+  
+  def nebulae
+  end
+  
 end
