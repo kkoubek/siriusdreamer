@@ -30,4 +30,7 @@ class HomeController < ApplicationController
   def pinwheel
   end
   
+  def auroras
+  end
+  
 end
