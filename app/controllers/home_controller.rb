@@ -24,4 +24,10 @@ class HomeController < ApplicationController
   def nebulae
   end
   
+  def galaxies
+  end
+  
+  def pinwheel
+  end
+  
 end

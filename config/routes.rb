@@ -15,6 +15,10 @@ Rails.application.routes.draw do
   get 'home/eagle_nebula'
   
   get 'home/nebulae'
+  
+  get 'home/galaxies'
+  
+  get 'home/pinwheel'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
