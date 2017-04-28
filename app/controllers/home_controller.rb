@@ -33,4 +33,13 @@ class HomeController < ApplicationController
   def auroras
   end
   
+  def comets
+  end
+  
+  def hale_bopp
+  end
+  
+  def comet_halley
+  end
+  
 end

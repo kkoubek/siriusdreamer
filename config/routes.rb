@@ -21,6 +21,12 @@ Rails.application.routes.draw do
   get 'home/pinwheel'
   
   get 'home/auroras'
+  
+  get 'home/comets'
+  
+  get 'home/hale_bopp'
+  
+  get 'home/comet_halley'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
