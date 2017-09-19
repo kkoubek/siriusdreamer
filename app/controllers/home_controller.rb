@@ -42,4 +42,7 @@ class HomeController < ApplicationController
   def comet_halley
   end
   
+  def simba
+  end
+  
 end
